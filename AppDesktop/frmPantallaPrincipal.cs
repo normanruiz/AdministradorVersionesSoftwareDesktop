@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AppDesktop
 {
-    public partial class Form1 : Form
+    public partial class frmPantallaPrincipal : Form
     {
-        public Form1()
+        public frmPantallaPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
