@@ -14,6 +14,7 @@ namespace AppDesktop
 {
     public partial class frmPantallaDetalle : Form
     {
+        public Plantilla plantilla { get; set; }
         public frmPantallaDetalle()
         {
             InitializeComponent();
@@ -22,12 +23,21 @@ namespace AppDesktop
         public frmPantallaDetalle(Plantilla plantilla)
         {
             InitializeComponent();
+
+            this.plantilla = plantilla;
+
+            tbxID.Text = this.plantilla.Id.ToString();
+            tbxProveedor.Text = this.plantilla.Proveedor.Nombre.ToString();
+            tbxModelo.Text = this.plantilla.Modelo.Denominacion.ToString();
+            tbxPlantilla.Text = this.plantilla.Denominacion.ToString();
+            tbxSalto.Text = this.plantilla.Salto.ToString();
+            tbxEstado.Text = this.plantilla.Estado.Tipo.ToString();
+            tbxSoftware.Text = this.plantilla.Software.Denominacion.ToString();
+            tbxMedio.Text = this.plantilla.Medio.Tipo.ToString();
+
+            tbxActualizacion.Text = this.plantilla.Actualizacion is null ? "Sin espesificar" : this.plantilla.Actualizacion.ToString();
         }
 
-        private void lblTituloAdministracionPlantillas_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
@@ -38,5 +48,6 @@ namespace AppDesktop
         {
 
         }
+
     }
 }
