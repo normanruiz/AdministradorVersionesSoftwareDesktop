@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modelo
+namespace Controlador
 {
-    public class Funcionalidad
+    class FuncionalidadNegocio
     {
-        public int Id { get; set; }
-        public String Nombre { get; set; }
     }
 }

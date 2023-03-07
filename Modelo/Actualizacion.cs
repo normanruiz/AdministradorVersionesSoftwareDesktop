@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    class Actualizacion
+    public class Actualizacion
     {
-        public int Id { get; set; }
-        public String Tipo { get; set; }
+        public string Tipo { get; set; }
+
+        public override string ToString()
+        {
+            return Tipo;
+        }
 
     }
 }

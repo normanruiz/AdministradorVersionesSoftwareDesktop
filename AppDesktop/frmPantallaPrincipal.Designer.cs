@@ -38,7 +38,7 @@ namespace AppDesktop
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.lblTituloAdministracionPlantillas = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxEstados = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
@@ -53,9 +53,12 @@ namespace AppDesktop
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPlantillas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPlantillas.Location = new System.Drawing.Point(24, 136);
+            this.dgvPlantillas.MultiSelect = false;
             this.dgvPlantillas.Name = "dgvPlantillas";
+            this.dgvPlantillas.ReadOnly = true;
             this.dgvPlantillas.RowHeadersWidth = 62;
             this.dgvPlantillas.RowTemplate.Height = 28;
+            this.dgvPlantillas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvPlantillas.Size = new System.Drawing.Size(800, 391);
             this.dgvPlantillas.TabIndex = 0;
             // 
@@ -92,6 +95,7 @@ namespace AppDesktop
             this.btnDetalle.TabIndex = 4;
             this.btnDetalle.Text = "Detalle";
             this.btnDetalle.UseVisualStyleBackColor = true;
+            this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click);
             // 
             // btnEliminar
             // 
@@ -140,13 +144,13 @@ namespace AppDesktop
             this.lblTituloAdministracionPlantillas.TabIndex = 13;
             this.lblTituloAdministracionPlantillas.Text = "Administracion de plantillas";
             // 
-            // comboBox1
+            // cbxEstados
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(24, 80);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(128, 28);
-            this.comboBox1.TabIndex = 14;
+            this.cbxEstados.FormattingEnabled = true;
+            this.cbxEstados.Location = new System.Drawing.Point(24, 80);
+            this.cbxEstados.Name = "cbxEstados";
+            this.cbxEstados.Size = new System.Drawing.Size(128, 28);
+            this.cbxEstados.TabIndex = 14;
             // 
             // comboBox2
             // 
@@ -189,7 +193,7 @@ namespace AppDesktop
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbxEstados);
             this.Controls.Add(this.lblTituloAdministracionPlantillas);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox1);
@@ -204,6 +208,7 @@ namespace AppDesktop
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Administracion de versiones de software";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmPantallaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlantillas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -221,7 +226,7 @@ namespace AppDesktop
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label lblTituloAdministracionPlantillas;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbxEstados;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;

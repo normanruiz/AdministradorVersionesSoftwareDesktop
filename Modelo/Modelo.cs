@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    public class Proveedor
+    public class Modelo
     {
         public int Id { get; set; }
-        public String Nombre { get; set; }
+        public String Denominacion { get; set; }
         public Boolean Estado { get; set; }
 
         public override string ToString()
         {
-            return Nombre;
+            return Denominacion;
         }
     }
 }

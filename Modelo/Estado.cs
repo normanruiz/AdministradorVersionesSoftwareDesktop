@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    class Estado
+    public class Estado
     {
         public int Id { get; set; }
         public String Tipo { get; set; }
+
+        public override string ToString()
+        {
+            return Tipo;
+        }
     }
 }

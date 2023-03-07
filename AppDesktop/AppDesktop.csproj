@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmPantallaDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPantallaDetalle.Designer.cs">
+      <DependentUpon>frmPantallaDetalle.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPantallaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmPantallaDetalle.resx">
+      <DependentUpon>frmPantallaDetalle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPantallaPrincipal.resx">
       <DependentUpon>frmPantallaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +87,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controlador\Controlador.csproj">
+      <Project>{f3e249af-63ea-4409-97b5-d4fd5ddd99a8}</Project>
+      <Name>Controlador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{35525491-8063-4dd5-b875-0cffc5e008d0}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
