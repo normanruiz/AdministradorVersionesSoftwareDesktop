@@ -68,7 +68,39 @@ namespace Controlador
                         plantilla.Actualizacion = (string)Conexion.Lector["Actualizacion"];
                     }
 
-                    //plantilla.Funcionalidades = new Dictionary<Funcionalidad, bool>();
+                    plantilla.Funcionalidades = new Dictionary<string, bool>();
+
+                    plantilla.Funcionalidades["Visa EMV"] = (string)Conexion.Lector["Visa EMV"] == "Si" ? true : false ;
+                    plantilla.Funcionalidades["MasterCard EMV"] = (string)Conexion.Lector["MasterCard EMV"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Amex EMV"] = (string)Conexion.Lector["Amex EMV"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Union Pay EMV"] = (string)Conexion.Lector["Union Pay EMV"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Visa CTLS"] = (string)Conexion.Lector["Visa EMV"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["MasterCard CTLS"] = (string)Conexion.Lector["MasterCard CTLS"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Amex CTLS"] = (string)Conexion.Lector["Amex CTLS"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Union Pay CTLS"] = (string)Conexion.Lector["Union Pay CTLS"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Extra Cash CTLS"] = (string)Conexion.Lector["Extra Cash CTLS"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["QR Visa/Matercard"] = (string)Conexion.Lector["QR Visa/Matercard"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["QR Amex Puro"] = (string)Conexion.Lector["QR Amex Puro"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["QR Beneficios"] = (string)Conexion.Lector["QR Beneficios"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["QR Cabal"] = (string)Conexion.Lector["QR Cabal"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Pos Integrado QR"] = (string)Conexion.Lector["Pos Integrado QR"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Pos Integrado"] = (string)Conexion.Lector["Pos Integrado"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Agro"] = (string)Conexion.Lector["Agro"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Shell Latam"] = (string)Conexion.Lector["Shell Latam"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["YPF ServiClub"] = (string)Conexion.Lector["YPF ServiClub"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["ACA"] = (string)Conexion.Lector["ACA"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Lote IP"] = (string)Conexion.Lector["Lote IP"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Pago de Servicios"] = (string)Conexion.Lector["Pago de Servicios"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["DCC"] = (string)Conexion.Lector["DCC"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Tax Free"] = (string)Conexion.Lector["Tax Free"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Resume"] = (string)Conexion.Lector["Resume"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Conexion Persistente"] = (string)Conexion.Lector["Conexion Persistente"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Async"] = (string)Conexion.Lector["Async"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Control de brillo"] = (string)Conexion.Lector["Control de brillo"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Base"] = (string)Conexion.Lector["Base"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Flota"] = (string)Conexion.Lector["Flota"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Cobro anticipado"] = (string)Conexion.Lector["Cobro anticipado"] == "Si" ? true : false;
+                    plantilla.Funcionalidades["Amex OPT Blue"] = (string)Conexion.Lector["Amex OPT Blue"] == "Si" ? true : false;
 
 
                     listaPlantillas.Add(plantilla);

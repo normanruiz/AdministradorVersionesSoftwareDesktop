@@ -52,37 +52,37 @@ namespace AppDesktop
             this.tbxProveedor = new System.Windows.Forms.TextBox();
             this.tbxID = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.tbxPagodeServicios = new System.Windows.Forms.CheckBox();
+            this.tbxAmexOPTBlue = new System.Windows.Forms.CheckBox();
+            this.tbxCobroanticipado = new System.Windows.Forms.CheckBox();
+            this.tbxFlota = new System.Windows.Forms.CheckBox();
+            this.tbxBase = new System.Windows.Forms.CheckBox();
+            this.tbxControldebrillo = new System.Windows.Forms.CheckBox();
+            this.tbxAsync = new System.Windows.Forms.CheckBox();
+            this.tbxConexionPersistente = new System.Windows.Forms.CheckBox();
+            this.tbxResume = new System.Windows.Forms.CheckBox();
+            this.tbxTaxFree = new System.Windows.Forms.CheckBox();
+            this.tbxDCC = new System.Windows.Forms.CheckBox();
+            this.tbxLoteIP = new System.Windows.Forms.CheckBox();
+            this.tbxACA = new System.Windows.Forms.CheckBox();
+            this.tbxYPFServiClub = new System.Windows.Forms.CheckBox();
+            this.tbxShellLatam = new System.Windows.Forms.CheckBox();
+            this.tbxAgro = new System.Windows.Forms.CheckBox();
+            this.tbxPosIntegrado = new System.Windows.Forms.CheckBox();
+            this.tbxPosIntegradoQR = new System.Windows.Forms.CheckBox();
+            this.tbxQRCabal = new System.Windows.Forms.CheckBox();
+            this.tbxQRBeneficios = new System.Windows.Forms.CheckBox();
+            this.tbxQRAmexPuro = new System.Windows.Forms.CheckBox();
+            this.tbxQRVisaMatercard = new System.Windows.Forms.CheckBox();
+            this.tbxExtraCashCTLS = new System.Windows.Forms.CheckBox();
+            this.tbxUnionPayCTLS = new System.Windows.Forms.CheckBox();
+            this.tbxAmexCTLS = new System.Windows.Forms.CheckBox();
+            this.tbxMasterCardCTLS = new System.Windows.Forms.CheckBox();
+            this.tbxVisaCTLS = new System.Windows.Forms.CheckBox();
+            this.tbxUnionPayEMV = new System.Windows.Forms.CheckBox();
+            this.tbxAmexEMV = new System.Windows.Forms.CheckBox();
+            this.tbxMasterCardEMV = new System.Windows.Forms.CheckBox();
+            this.tbxVisaEMV = new System.Windows.Forms.CheckBox();
             this.gpbDatosGenerales.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -330,37 +330,37 @@ namespace AppDesktop
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox31);
-            this.groupBox1.Controls.Add(this.checkBox21);
-            this.groupBox1.Controls.Add(this.checkBox22);
-            this.groupBox1.Controls.Add(this.checkBox23);
-            this.groupBox1.Controls.Add(this.checkBox24);
-            this.groupBox1.Controls.Add(this.checkBox25);
-            this.groupBox1.Controls.Add(this.checkBox26);
-            this.groupBox1.Controls.Add(this.checkBox27);
-            this.groupBox1.Controls.Add(this.checkBox28);
-            this.groupBox1.Controls.Add(this.checkBox29);
-            this.groupBox1.Controls.Add(this.checkBox30);
-            this.groupBox1.Controls.Add(this.checkBox11);
-            this.groupBox1.Controls.Add(this.checkBox12);
-            this.groupBox1.Controls.Add(this.checkBox13);
-            this.groupBox1.Controls.Add(this.checkBox14);
-            this.groupBox1.Controls.Add(this.checkBox15);
-            this.groupBox1.Controls.Add(this.checkBox16);
-            this.groupBox1.Controls.Add(this.checkBox17);
-            this.groupBox1.Controls.Add(this.checkBox18);
-            this.groupBox1.Controls.Add(this.checkBox19);
-            this.groupBox1.Controls.Add(this.checkBox20);
-            this.groupBox1.Controls.Add(this.checkBox10);
-            this.groupBox1.Controls.Add(this.checkBox9);
-            this.groupBox1.Controls.Add(this.checkBox8);
-            this.groupBox1.Controls.Add(this.checkBox7);
-            this.groupBox1.Controls.Add(this.checkBox6);
-            this.groupBox1.Controls.Add(this.checkBox5);
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.tbxPagodeServicios);
+            this.groupBox1.Controls.Add(this.tbxAmexOPTBlue);
+            this.groupBox1.Controls.Add(this.tbxCobroanticipado);
+            this.groupBox1.Controls.Add(this.tbxFlota);
+            this.groupBox1.Controls.Add(this.tbxBase);
+            this.groupBox1.Controls.Add(this.tbxControldebrillo);
+            this.groupBox1.Controls.Add(this.tbxAsync);
+            this.groupBox1.Controls.Add(this.tbxConexionPersistente);
+            this.groupBox1.Controls.Add(this.tbxResume);
+            this.groupBox1.Controls.Add(this.tbxTaxFree);
+            this.groupBox1.Controls.Add(this.tbxDCC);
+            this.groupBox1.Controls.Add(this.tbxLoteIP);
+            this.groupBox1.Controls.Add(this.tbxACA);
+            this.groupBox1.Controls.Add(this.tbxYPFServiClub);
+            this.groupBox1.Controls.Add(this.tbxShellLatam);
+            this.groupBox1.Controls.Add(this.tbxAgro);
+            this.groupBox1.Controls.Add(this.tbxPosIntegrado);
+            this.groupBox1.Controls.Add(this.tbxPosIntegradoQR);
+            this.groupBox1.Controls.Add(this.tbxQRCabal);
+            this.groupBox1.Controls.Add(this.tbxQRBeneficios);
+            this.groupBox1.Controls.Add(this.tbxQRAmexPuro);
+            this.groupBox1.Controls.Add(this.tbxQRVisaMatercard);
+            this.groupBox1.Controls.Add(this.tbxExtraCashCTLS);
+            this.groupBox1.Controls.Add(this.tbxUnionPayCTLS);
+            this.groupBox1.Controls.Add(this.tbxAmexCTLS);
+            this.groupBox1.Controls.Add(this.tbxMasterCardCTLS);
+            this.groupBox1.Controls.Add(this.tbxVisaCTLS);
+            this.groupBox1.Controls.Add(this.tbxUnionPayEMV);
+            this.groupBox1.Controls.Add(this.tbxAmexEMV);
+            this.groupBox1.Controls.Add(this.tbxMasterCardEMV);
+            this.groupBox1.Controls.Add(this.tbxVisaEMV);
             this.groupBox1.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(412, 100);
             this.groupBox1.Name = "groupBox1";
@@ -369,346 +369,346 @@ namespace AppDesktop
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Funcionalidades";
             // 
-            // checkBox31
+            // tbxPagodeServicios
             // 
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.Enabled = false;
-            this.checkBox31.Location = new System.Drawing.Point(248, 536);
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(176, 26);
-            this.checkBox31.TabIndex = 57;
-            this.checkBox31.Text = "Pago de Servicios";
-            this.checkBox31.UseVisualStyleBackColor = true;
+            this.tbxPagodeServicios.AutoSize = true;
+            this.tbxPagodeServicios.Enabled = false;
+            this.tbxPagodeServicios.Location = new System.Drawing.Point(248, 536);
+            this.tbxPagodeServicios.Name = "tbxPagodeServicios";
+            this.tbxPagodeServicios.Size = new System.Drawing.Size(176, 26);
+            this.tbxPagodeServicios.TabIndex = 57;
+            this.tbxPagodeServicios.Text = "Pago de Servicios";
+            this.tbxPagodeServicios.UseVisualStyleBackColor = true;
             // 
-            // checkBox21
+            // tbxAmexOPTBlue
             // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Enabled = false;
-            this.checkBox21.Location = new System.Drawing.Point(440, 482);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(169, 26);
-            this.checkBox21.TabIndex = 56;
-            this.checkBox21.Text = "Amex OPT Blue";
-            this.checkBox21.UseVisualStyleBackColor = true;
+            this.tbxAmexOPTBlue.AutoSize = true;
+            this.tbxAmexOPTBlue.Enabled = false;
+            this.tbxAmexOPTBlue.Location = new System.Drawing.Point(440, 482);
+            this.tbxAmexOPTBlue.Name = "tbxAmexOPTBlue";
+            this.tbxAmexOPTBlue.Size = new System.Drawing.Size(169, 26);
+            this.tbxAmexOPTBlue.TabIndex = 56;
+            this.tbxAmexOPTBlue.Text = "Amex OPT Blue";
+            this.tbxAmexOPTBlue.UseVisualStyleBackColor = true;
             // 
-            // checkBox22
+            // tbxCobroanticipado
             // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Enabled = false;
-            this.checkBox22.Location = new System.Drawing.Point(440, 432);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(171, 26);
-            this.checkBox22.TabIndex = 55;
-            this.checkBox22.Text = "Cobro anticipado";
-            this.checkBox22.UseVisualStyleBackColor = true;
+            this.tbxCobroanticipado.AutoSize = true;
+            this.tbxCobroanticipado.Enabled = false;
+            this.tbxCobroanticipado.Location = new System.Drawing.Point(440, 432);
+            this.tbxCobroanticipado.Name = "tbxCobroanticipado";
+            this.tbxCobroanticipado.Size = new System.Drawing.Size(171, 26);
+            this.tbxCobroanticipado.TabIndex = 55;
+            this.tbxCobroanticipado.Text = "Cobro anticipado";
+            this.tbxCobroanticipado.UseVisualStyleBackColor = true;
             // 
-            // checkBox23
+            // tbxFlota
             // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Enabled = false;
-            this.checkBox23.Location = new System.Drawing.Point(440, 382);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(78, 26);
-            this.checkBox23.TabIndex = 54;
-            this.checkBox23.Text = "Flota";
-            this.checkBox23.UseVisualStyleBackColor = true;
+            this.tbxFlota.AutoSize = true;
+            this.tbxFlota.Enabled = false;
+            this.tbxFlota.Location = new System.Drawing.Point(440, 382);
+            this.tbxFlota.Name = "tbxFlota";
+            this.tbxFlota.Size = new System.Drawing.Size(78, 26);
+            this.tbxFlota.TabIndex = 54;
+            this.tbxFlota.Text = "Flota";
+            this.tbxFlota.UseVisualStyleBackColor = true;
             // 
-            // checkBox24
+            // tbxBase
             // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Enabled = false;
-            this.checkBox24.Location = new System.Drawing.Point(440, 332);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(74, 26);
-            this.checkBox24.TabIndex = 53;
-            this.checkBox24.Text = "Base";
-            this.checkBox24.UseVisualStyleBackColor = true;
+            this.tbxBase.AutoSize = true;
+            this.tbxBase.Enabled = false;
+            this.tbxBase.Location = new System.Drawing.Point(440, 332);
+            this.tbxBase.Name = "tbxBase";
+            this.tbxBase.Size = new System.Drawing.Size(74, 26);
+            this.tbxBase.TabIndex = 53;
+            this.tbxBase.Text = "Base";
+            this.tbxBase.UseVisualStyleBackColor = true;
             // 
-            // checkBox25
+            // tbxControldebrillo
             // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Enabled = false;
-            this.checkBox25.Location = new System.Drawing.Point(440, 282);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(168, 26);
-            this.checkBox25.TabIndex = 52;
-            this.checkBox25.Text = "Control de brillo";
-            this.checkBox25.UseVisualStyleBackColor = true;
+            this.tbxControldebrillo.AutoSize = true;
+            this.tbxControldebrillo.Enabled = false;
+            this.tbxControldebrillo.Location = new System.Drawing.Point(440, 282);
+            this.tbxControldebrillo.Name = "tbxControldebrillo";
+            this.tbxControldebrillo.Size = new System.Drawing.Size(168, 26);
+            this.tbxControldebrillo.TabIndex = 52;
+            this.tbxControldebrillo.Text = "Control de brillo";
+            this.tbxControldebrillo.UseVisualStyleBackColor = true;
             // 
-            // checkBox26
+            // tbxAsync
             // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Enabled = false;
-            this.checkBox26.Location = new System.Drawing.Point(440, 232);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(85, 26);
-            this.checkBox26.TabIndex = 51;
-            this.checkBox26.Text = "Async";
-            this.checkBox26.UseVisualStyleBackColor = true;
+            this.tbxAsync.AutoSize = true;
+            this.tbxAsync.Enabled = false;
+            this.tbxAsync.Location = new System.Drawing.Point(440, 232);
+            this.tbxAsync.Name = "tbxAsync";
+            this.tbxAsync.Size = new System.Drawing.Size(85, 26);
+            this.tbxAsync.TabIndex = 51;
+            this.tbxAsync.Text = "Async";
+            this.tbxAsync.UseVisualStyleBackColor = true;
             // 
-            // checkBox27
+            // tbxConexionPersistente
             // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Enabled = false;
-            this.checkBox27.Location = new System.Drawing.Point(440, 182);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(204, 26);
-            this.checkBox27.TabIndex = 50;
-            this.checkBox27.Text = "Conexion Persistente";
-            this.checkBox27.UseVisualStyleBackColor = true;
+            this.tbxConexionPersistente.AutoSize = true;
+            this.tbxConexionPersistente.Enabled = false;
+            this.tbxConexionPersistente.Location = new System.Drawing.Point(440, 182);
+            this.tbxConexionPersistente.Name = "tbxConexionPersistente";
+            this.tbxConexionPersistente.Size = new System.Drawing.Size(204, 26);
+            this.tbxConexionPersistente.TabIndex = 50;
+            this.tbxConexionPersistente.Text = "Conexion Persistente";
+            this.tbxConexionPersistente.UseVisualStyleBackColor = true;
             // 
-            // checkBox28
+            // tbxResume
             // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Enabled = false;
-            this.checkBox28.Location = new System.Drawing.Point(440, 132);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(98, 26);
-            this.checkBox28.TabIndex = 49;
-            this.checkBox28.Text = "Resume";
-            this.checkBox28.UseVisualStyleBackColor = true;
+            this.tbxResume.AutoSize = true;
+            this.tbxResume.Enabled = false;
+            this.tbxResume.Location = new System.Drawing.Point(440, 132);
+            this.tbxResume.Name = "tbxResume";
+            this.tbxResume.Size = new System.Drawing.Size(98, 26);
+            this.tbxResume.TabIndex = 49;
+            this.tbxResume.Text = "Resume";
+            this.tbxResume.UseVisualStyleBackColor = true;
             // 
-            // checkBox29
+            // tbxTaxFree
             // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Enabled = false;
-            this.checkBox29.Location = new System.Drawing.Point(440, 82);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(108, 26);
-            this.checkBox29.TabIndex = 48;
-            this.checkBox29.Text = "Tax Free";
-            this.checkBox29.UseVisualStyleBackColor = true;
+            this.tbxTaxFree.AutoSize = true;
+            this.tbxTaxFree.Enabled = false;
+            this.tbxTaxFree.Location = new System.Drawing.Point(440, 82);
+            this.tbxTaxFree.Name = "tbxTaxFree";
+            this.tbxTaxFree.Size = new System.Drawing.Size(108, 26);
+            this.tbxTaxFree.TabIndex = 48;
+            this.tbxTaxFree.Text = "Tax Free";
+            this.tbxTaxFree.UseVisualStyleBackColor = true;
             // 
-            // checkBox30
+            // tbxDCC
             // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Enabled = false;
-            this.checkBox30.Location = new System.Drawing.Point(440, 32);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(73, 26);
-            this.checkBox30.TabIndex = 47;
-            this.checkBox30.Text = "DCC";
-            this.checkBox30.UseVisualStyleBackColor = true;
+            this.tbxDCC.AutoSize = true;
+            this.tbxDCC.Enabled = false;
+            this.tbxDCC.Location = new System.Drawing.Point(440, 32);
+            this.tbxDCC.Name = "tbxDCC";
+            this.tbxDCC.Size = new System.Drawing.Size(73, 26);
+            this.tbxDCC.TabIndex = 47;
+            this.tbxDCC.Text = "DCC";
+            this.tbxDCC.UseVisualStyleBackColor = true;
             // 
-            // checkBox11
+            // tbxLoteIP
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Enabled = false;
-            this.checkBox11.Location = new System.Drawing.Point(248, 484);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(99, 26);
-            this.checkBox11.TabIndex = 46;
-            this.checkBox11.Text = "Lote IP";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.tbxLoteIP.AutoSize = true;
+            this.tbxLoteIP.Enabled = false;
+            this.tbxLoteIP.Location = new System.Drawing.Point(248, 484);
+            this.tbxLoteIP.Name = "tbxLoteIP";
+            this.tbxLoteIP.Size = new System.Drawing.Size(99, 26);
+            this.tbxLoteIP.TabIndex = 46;
+            this.tbxLoteIP.Text = "Lote IP";
+            this.tbxLoteIP.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // tbxACA
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Enabled = false;
-            this.checkBox12.Location = new System.Drawing.Point(248, 434);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(75, 26);
-            this.checkBox12.TabIndex = 45;
-            this.checkBox12.Text = "ACA";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.tbxACA.AutoSize = true;
+            this.tbxACA.Enabled = false;
+            this.tbxACA.Location = new System.Drawing.Point(248, 434);
+            this.tbxACA.Name = "tbxACA";
+            this.tbxACA.Size = new System.Drawing.Size(75, 26);
+            this.tbxACA.TabIndex = 45;
+            this.tbxACA.Text = "ACA";
+            this.tbxACA.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // tbxYPFServiClub
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Enabled = false;
-            this.checkBox13.Location = new System.Drawing.Point(248, 384);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(159, 26);
-            this.checkBox13.TabIndex = 44;
-            this.checkBox13.Text = "YPF ServiClub";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.tbxYPFServiClub.AutoSize = true;
+            this.tbxYPFServiClub.Enabled = false;
+            this.tbxYPFServiClub.Location = new System.Drawing.Point(248, 384);
+            this.tbxYPFServiClub.Name = "tbxYPFServiClub";
+            this.tbxYPFServiClub.Size = new System.Drawing.Size(159, 26);
+            this.tbxYPFServiClub.TabIndex = 44;
+            this.tbxYPFServiClub.Text = "YPF ServiClub";
+            this.tbxYPFServiClub.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // tbxShellLatam
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Enabled = false;
-            this.checkBox14.Location = new System.Drawing.Point(248, 334);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(136, 26);
-            this.checkBox14.TabIndex = 43;
-            this.checkBox14.Text = "Shell Latam";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.tbxShellLatam.AutoSize = true;
+            this.tbxShellLatam.Enabled = false;
+            this.tbxShellLatam.Location = new System.Drawing.Point(248, 334);
+            this.tbxShellLatam.Name = "tbxShellLatam";
+            this.tbxShellLatam.Size = new System.Drawing.Size(136, 26);
+            this.tbxShellLatam.TabIndex = 43;
+            this.tbxShellLatam.Text = "Shell Latam";
+            this.tbxShellLatam.UseVisualStyleBackColor = true;
             // 
-            // checkBox15
+            // tbxAgro
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Enabled = false;
-            this.checkBox15.Location = new System.Drawing.Point(248, 284);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(76, 26);
-            this.checkBox15.TabIndex = 42;
-            this.checkBox15.Text = "Agro";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.tbxAgro.AutoSize = true;
+            this.tbxAgro.Enabled = false;
+            this.tbxAgro.Location = new System.Drawing.Point(248, 284);
+            this.tbxAgro.Name = "tbxAgro";
+            this.tbxAgro.Size = new System.Drawing.Size(76, 26);
+            this.tbxAgro.TabIndex = 42;
+            this.tbxAgro.Text = "Agro";
+            this.tbxAgro.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // tbxPosIntegrado
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Enabled = false;
-            this.checkBox16.Location = new System.Drawing.Point(248, 234);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(148, 26);
-            this.checkBox16.TabIndex = 41;
-            this.checkBox16.Text = "Pos Integrado";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.tbxPosIntegrado.AutoSize = true;
+            this.tbxPosIntegrado.Enabled = false;
+            this.tbxPosIntegrado.Location = new System.Drawing.Point(248, 234);
+            this.tbxPosIntegrado.Name = "tbxPosIntegrado";
+            this.tbxPosIntegrado.Size = new System.Drawing.Size(148, 26);
+            this.tbxPosIntegrado.TabIndex = 41;
+            this.tbxPosIntegrado.Text = "Pos Integrado";
+            this.tbxPosIntegrado.UseVisualStyleBackColor = true;
             // 
-            // checkBox17
+            // tbxPosIntegradoQR
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Enabled = false;
-            this.checkBox17.Location = new System.Drawing.Point(248, 184);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(180, 26);
-            this.checkBox17.TabIndex = 40;
-            this.checkBox17.Text = "Pos Integrado QR";
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.tbxPosIntegradoQR.AutoSize = true;
+            this.tbxPosIntegradoQR.Enabled = false;
+            this.tbxPosIntegradoQR.Location = new System.Drawing.Point(248, 184);
+            this.tbxPosIntegradoQR.Name = "tbxPosIntegradoQR";
+            this.tbxPosIntegradoQR.Size = new System.Drawing.Size(180, 26);
+            this.tbxPosIntegradoQR.TabIndex = 40;
+            this.tbxPosIntegradoQR.Text = "Pos Integrado QR";
+            this.tbxPosIntegradoQR.UseVisualStyleBackColor = true;
             // 
-            // checkBox18
+            // tbxQRCabal
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Enabled = false;
-            this.checkBox18.Location = new System.Drawing.Point(248, 134);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(112, 26);
-            this.checkBox18.TabIndex = 39;
-            this.checkBox18.Text = "QR Cabal";
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.tbxQRCabal.AutoSize = true;
+            this.tbxQRCabal.Enabled = false;
+            this.tbxQRCabal.Location = new System.Drawing.Point(248, 134);
+            this.tbxQRCabal.Name = "tbxQRCabal";
+            this.tbxQRCabal.Size = new System.Drawing.Size(112, 26);
+            this.tbxQRCabal.TabIndex = 39;
+            this.tbxQRCabal.Text = "QR Cabal";
+            this.tbxQRCabal.UseVisualStyleBackColor = true;
             // 
-            // checkBox19
+            // tbxQRBeneficios
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Enabled = false;
-            this.checkBox19.Location = new System.Drawing.Point(248, 84);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(152, 26);
-            this.checkBox19.TabIndex = 38;
-            this.checkBox19.Text = "QR Beneficios";
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.tbxQRBeneficios.AutoSize = true;
+            this.tbxQRBeneficios.Enabled = false;
+            this.tbxQRBeneficios.Location = new System.Drawing.Point(248, 84);
+            this.tbxQRBeneficios.Name = "tbxQRBeneficios";
+            this.tbxQRBeneficios.Size = new System.Drawing.Size(152, 26);
+            this.tbxQRBeneficios.TabIndex = 38;
+            this.tbxQRBeneficios.Text = "QR Beneficios";
+            this.tbxQRBeneficios.UseVisualStyleBackColor = true;
             // 
-            // checkBox20
+            // tbxQRAmexPuro
             // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Enabled = false;
-            this.checkBox20.Location = new System.Drawing.Point(248, 34);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(160, 26);
-            this.checkBox20.TabIndex = 37;
-            this.checkBox20.Text = "QR Amex Puro";
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.tbxQRAmexPuro.AutoSize = true;
+            this.tbxQRAmexPuro.Enabled = false;
+            this.tbxQRAmexPuro.Location = new System.Drawing.Point(248, 34);
+            this.tbxQRAmexPuro.Name = "tbxQRAmexPuro";
+            this.tbxQRAmexPuro.Size = new System.Drawing.Size(160, 26);
+            this.tbxQRAmexPuro.TabIndex = 37;
+            this.tbxQRAmexPuro.Text = "QR Amex Puro";
+            this.tbxQRAmexPuro.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // tbxQRVisaMatercard
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Enabled = false;
-            this.checkBox10.Location = new System.Drawing.Point(40, 482);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(191, 26);
-            this.checkBox10.TabIndex = 36;
-            this.checkBox10.Text = "QR Visa/Matercard";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.tbxQRVisaMatercard.AutoSize = true;
+            this.tbxQRVisaMatercard.Enabled = false;
+            this.tbxQRVisaMatercard.Location = new System.Drawing.Point(40, 482);
+            this.tbxQRVisaMatercard.Name = "tbxQRVisaMatercard";
+            this.tbxQRVisaMatercard.Size = new System.Drawing.Size(191, 26);
+            this.tbxQRVisaMatercard.TabIndex = 36;
+            this.tbxQRVisaMatercard.Text = "QR Visa/Matercard";
+            this.tbxQRVisaMatercard.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // tbxExtraCashCTLS
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Enabled = false;
-            this.checkBox9.Location = new System.Drawing.Point(40, 432);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(179, 26);
-            this.checkBox9.TabIndex = 35;
-            this.checkBox9.Text = "Extra Cash CTLS";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.tbxExtraCashCTLS.AutoSize = true;
+            this.tbxExtraCashCTLS.Enabled = false;
+            this.tbxExtraCashCTLS.Location = new System.Drawing.Point(40, 432);
+            this.tbxExtraCashCTLS.Name = "tbxExtraCashCTLS";
+            this.tbxExtraCashCTLS.Size = new System.Drawing.Size(179, 26);
+            this.tbxExtraCashCTLS.TabIndex = 35;
+            this.tbxExtraCashCTLS.Text = "Extra Cash CTLS";
+            this.tbxExtraCashCTLS.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // tbxUnionPayCTLS
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Enabled = false;
-            this.checkBox8.Location = new System.Drawing.Point(40, 382);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(176, 26);
-            this.checkBox8.TabIndex = 34;
-            this.checkBox8.Text = "Union Pay CTLS";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.tbxUnionPayCTLS.AutoSize = true;
+            this.tbxUnionPayCTLS.Enabled = false;
+            this.tbxUnionPayCTLS.Location = new System.Drawing.Point(40, 382);
+            this.tbxUnionPayCTLS.Name = "tbxUnionPayCTLS";
+            this.tbxUnionPayCTLS.Size = new System.Drawing.Size(176, 26);
+            this.tbxUnionPayCTLS.TabIndex = 34;
+            this.tbxUnionPayCTLS.Text = "Union Pay CTLS";
+            this.tbxUnionPayCTLS.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // tbxAmexCTLS
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Enabled = false;
-            this.checkBox7.Location = new System.Drawing.Point(40, 332);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(136, 26);
-            this.checkBox7.TabIndex = 33;
-            this.checkBox7.Text = "Amex CTLS";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.tbxAmexCTLS.AutoSize = true;
+            this.tbxAmexCTLS.Enabled = false;
+            this.tbxAmexCTLS.Location = new System.Drawing.Point(40, 332);
+            this.tbxAmexCTLS.Name = "tbxAmexCTLS";
+            this.tbxAmexCTLS.Size = new System.Drawing.Size(136, 26);
+            this.tbxAmexCTLS.TabIndex = 33;
+            this.tbxAmexCTLS.Text = "Amex CTLS";
+            this.tbxAmexCTLS.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // tbxMasterCardCTLS
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Enabled = false;
-            this.checkBox6.Location = new System.Drawing.Point(40, 282);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(182, 26);
-            this.checkBox6.TabIndex = 32;
-            this.checkBox6.Text = "MasterCard CTLS";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.tbxMasterCardCTLS.AutoSize = true;
+            this.tbxMasterCardCTLS.Enabled = false;
+            this.tbxMasterCardCTLS.Location = new System.Drawing.Point(40, 282);
+            this.tbxMasterCardCTLS.Name = "tbxMasterCardCTLS";
+            this.tbxMasterCardCTLS.Size = new System.Drawing.Size(182, 26);
+            this.tbxMasterCardCTLS.TabIndex = 32;
+            this.tbxMasterCardCTLS.Text = "MasterCard CTLS";
+            this.tbxMasterCardCTLS.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // tbxVisaCTLS
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Enabled = false;
-            this.checkBox5.Location = new System.Drawing.Point(40, 232);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(125, 26);
-            this.checkBox5.TabIndex = 31;
-            this.checkBox5.Text = "Visa CTLS";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.tbxVisaCTLS.AutoSize = true;
+            this.tbxVisaCTLS.Enabled = false;
+            this.tbxVisaCTLS.Location = new System.Drawing.Point(40, 232);
+            this.tbxVisaCTLS.Name = "tbxVisaCTLS";
+            this.tbxVisaCTLS.Size = new System.Drawing.Size(125, 26);
+            this.tbxVisaCTLS.TabIndex = 31;
+            this.tbxVisaCTLS.Text = "Visa CTLS";
+            this.tbxVisaCTLS.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // tbxUnionPayEMV
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Enabled = false;
-            this.checkBox4.Location = new System.Drawing.Point(40, 182);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(173, 26);
-            this.checkBox4.TabIndex = 30;
-            this.checkBox4.Text = "Union Pay EMV";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.tbxUnionPayEMV.AutoSize = true;
+            this.tbxUnionPayEMV.Enabled = false;
+            this.tbxUnionPayEMV.Location = new System.Drawing.Point(40, 182);
+            this.tbxUnionPayEMV.Name = "tbxUnionPayEMV";
+            this.tbxUnionPayEMV.Size = new System.Drawing.Size(173, 26);
+            this.tbxUnionPayEMV.TabIndex = 30;
+            this.tbxUnionPayEMV.Text = "Union Pay EMV";
+            this.tbxUnionPayEMV.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // tbxAmexEMV
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Enabled = false;
-            this.checkBox3.Location = new System.Drawing.Point(40, 132);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(133, 26);
-            this.checkBox3.TabIndex = 29;
-            this.checkBox3.Text = "Amex EMV";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.tbxAmexEMV.AutoSize = true;
+            this.tbxAmexEMV.Enabled = false;
+            this.tbxAmexEMV.Location = new System.Drawing.Point(40, 132);
+            this.tbxAmexEMV.Name = "tbxAmexEMV";
+            this.tbxAmexEMV.Size = new System.Drawing.Size(133, 26);
+            this.tbxAmexEMV.TabIndex = 29;
+            this.tbxAmexEMV.Text = "Amex EMV";
+            this.tbxAmexEMV.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // tbxMasterCardEMV
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Enabled = false;
-            this.checkBox2.Location = new System.Drawing.Point(40, 82);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(179, 26);
-            this.checkBox2.TabIndex = 28;
-            this.checkBox2.Text = "MasterCard EMV";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.tbxMasterCardEMV.AutoSize = true;
+            this.tbxMasterCardEMV.Enabled = false;
+            this.tbxMasterCardEMV.Location = new System.Drawing.Point(40, 82);
+            this.tbxMasterCardEMV.Name = "tbxMasterCardEMV";
+            this.tbxMasterCardEMV.Size = new System.Drawing.Size(179, 26);
+            this.tbxMasterCardEMV.TabIndex = 28;
+            this.tbxMasterCardEMV.Text = "MasterCard EMV";
+            this.tbxMasterCardEMV.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // tbxVisaEMV
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Enabled = false;
-            this.checkBox1.Location = new System.Drawing.Point(40, 32);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(122, 26);
-            this.checkBox1.TabIndex = 27;
-            this.checkBox1.Text = "Visa EMV";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.tbxVisaEMV.AutoSize = true;
+            this.tbxVisaEMV.Enabled = false;
+            this.tbxVisaEMV.Location = new System.Drawing.Point(40, 32);
+            this.tbxVisaEMV.Name = "tbxVisaEMV";
+            this.tbxVisaEMV.Size = new System.Drawing.Size(122, 26);
+            this.tbxVisaEMV.TabIndex = 27;
+            this.tbxVisaEMV.Text = "Visa EMV";
+            this.tbxVisaEMV.UseVisualStyleBackColor = true;
             // 
             // frmPantallaDetalle
             // 
@@ -760,36 +760,36 @@ namespace AppDesktop
         private System.Windows.Forms.TextBox tbxModelo;
         private System.Windows.Forms.TextBox tbxProveedor;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox31;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.CheckBox checkBox28;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.CheckBox checkBox30;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox tbxVisaEMV;
+        private System.Windows.Forms.CheckBox tbxPagodeServicios;
+        private System.Windows.Forms.CheckBox tbxAmexOPTBlue;
+        private System.Windows.Forms.CheckBox tbxCobroanticipado;
+        private System.Windows.Forms.CheckBox tbxFlota;
+        private System.Windows.Forms.CheckBox tbxBase;
+        private System.Windows.Forms.CheckBox tbxControldebrillo;
+        private System.Windows.Forms.CheckBox tbxAsync;
+        private System.Windows.Forms.CheckBox tbxConexionPersistente;
+        private System.Windows.Forms.CheckBox tbxResume;
+        private System.Windows.Forms.CheckBox tbxTaxFree;
+        private System.Windows.Forms.CheckBox tbxDCC;
+        private System.Windows.Forms.CheckBox tbxLoteIP;
+        private System.Windows.Forms.CheckBox tbxACA;
+        private System.Windows.Forms.CheckBox tbxYPFServiClub;
+        private System.Windows.Forms.CheckBox tbxShellLatam;
+        private System.Windows.Forms.CheckBox tbxAgro;
+        private System.Windows.Forms.CheckBox tbxPosIntegrado;
+        private System.Windows.Forms.CheckBox tbxPosIntegradoQR;
+        private System.Windows.Forms.CheckBox tbxQRCabal;
+        private System.Windows.Forms.CheckBox tbxQRBeneficios;
+        private System.Windows.Forms.CheckBox tbxQRAmexPuro;
+        private System.Windows.Forms.CheckBox tbxQRVisaMatercard;
+        private System.Windows.Forms.CheckBox tbxExtraCashCTLS;
+        private System.Windows.Forms.CheckBox tbxUnionPayCTLS;
+        private System.Windows.Forms.CheckBox tbxAmexCTLS;
+        private System.Windows.Forms.CheckBox tbxMasterCardCTLS;
+        private System.Windows.Forms.CheckBox tbxVisaCTLS;
+        private System.Windows.Forms.CheckBox tbxUnionPayEMV;
+        private System.Windows.Forms.CheckBox tbxAmexEMV;
+        private System.Windows.Forms.CheckBox tbxMasterCardEMV;
     }
 }

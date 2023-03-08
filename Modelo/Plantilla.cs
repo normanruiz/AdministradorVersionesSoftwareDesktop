@@ -17,6 +17,6 @@ namespace Modelo
         public Software Software { get; set; }
         public Medio Medio { get; set; }
         public String Actualizacion { get; set; }
-        public Dictionary<Funcionalidad, Boolean> Funcionalidades { get; set; }
+        public Dictionary<String, Boolean> Funcionalidades { get; set; }
     }
 }
