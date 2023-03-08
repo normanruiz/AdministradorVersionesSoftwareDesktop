@@ -101,5 +101,39 @@ namespace AppDesktop
                 MessageBox.Show(excepcion.ToString(), "Visualizando articulo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            PlantillaNegocio plantillanegocio = new PlantillaNegocio();
+            Plantilla plantilla;
+            try
+            {
+                DialogResult respuesta = MessageBox.Show("Estas seguro de eliminar la Plantilla?", "Eliminando Plantilla", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (respuesta == DialogResult.Yes)
+                {
+                    if (dgvPlantillas.CurrentRow != null)
+                    {
+                        plantilla = (Plantilla)dgvPlantillas.CurrentRow.DataBoundItem;
+                        if (plantillanegocio.Eliminar(plantilla.Id))
+                        {
+                            MessageBox.Show("La plantilla se elimino correctamente.", "Eliminando Plantilla", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        }
+                        actualizarListadoPlantillas();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Debe seleccionar un elemento primero.", "Eliminar articulo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
+            catch (NullReferenceException excepcion)
+            {
+                MessageBox.Show("Debe seleccionar un elemento primero.", "Eliminando articulo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            catch (Exception excepcion)
+            {
+                MessageBox.Show(excepcion.ToString(), "Eliminando articulo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }

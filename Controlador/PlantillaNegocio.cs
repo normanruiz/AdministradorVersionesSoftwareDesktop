@@ -185,5 +185,30 @@ namespace Controlador
                 conexion.cerrar();
             }
         }
+
+        public Boolean Eliminar(int id)
+        {
+            Boolean estado = true;
+            AccesoDatos conexion = new AccesoDatos();
+            try
+            {
+                string consulta = "DELETE FROM [LaposTecno].[dbo].[plantillas] WHERE [id] = @id;";
+                conexion.setearConsulta(consulta);
+                conexion.setearParametro("@id", id);
+                conexion.conectar();
+                conexion.ejecutarAccion();
+                return estado;
+            }
+            catch (Exception excepcion)
+            {
+                estado = false;
+                return estado;
+                throw excepcion;
+            }
+            finally
+            {
+                conexion.cerrar();
+            }
+        }
     }
 }
